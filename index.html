@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="weather">
+   <div> <input type="search" list="suggestion" class="weather_search animate__animated animate__bounce" placeholder="Enter Your city"> </div>
+   <datalist id="suggestion">
+</datalist>
+   <div class="weather_today">
+    <div class="weather_detalis">
+        <h2 class="weather_city"> City</h2>
+        <p class="weather_day">Day</p>
+        <div class="weather_current">
+            <p class="weather_indicator weather_indicator--humidity"> <span class="value">50</span>%</p>
+            <p class="weather_indicator weather_indicator--wind"> <span id="wind" class="value">west, 5</span>m/s</p>
+            <p class="weather_indicator weather_indicator--pressure"> <span id="pressure" class="valu"> 1050</span>hpa</p>
+        </div>
+    </div>
+    <img src="sun.png" alt="sun png" class="weather_image ">
+    <div class="weather_temperature"><span class="value">0</span> &deg; C</div>  
+   </div>
+   <div class="weather_forecast">
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item"> 
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="valu">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="valu">+25</span> &deg;C</p>
+  </article>
+  <article class="weather__forecast__item">
+    <img src="sun.png" alt="sun png" class="weather_forecast_icon">
+    <h2 class="weather__forecast__day">Day</h2>
+    <p class="weather__forecast__temperature"><span class="valu">+25</span> &deg;C</p>
+  </article>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
